@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+:root {
+ 
+    --navigation-bg: #373737;
+    --firstblock-color: #FCFCFC;
+  }
+
+  .dark-theme {
+   
+    --navigation-bg: #E4E4E4;
+    --firstblock-color: #373737;
+   
+  }
+
+
+
+
+
+.navigation{
+    width: 100% !important;
+    background-color:var(--navigation-bg);
+    height:100vh;
+    padding:0;
+}
+.firstblock{
+    background-color:var(--firstblock-color);
+    width:100%;
+    height:50vh;
+    margin:0;
+    padding-top:5rem;
+   
+}
+.secondblock{
+    background-color: #F36F2E;
+    width:100%;
+    height:50vh;
+    margin:0;
+}
+.text-reset{
+    
+     margin-top:0.5rem;
+    float: right;
+}
+.cancelbtnsvg{
+    width:2rem;
+    height:2rem;
+}
+.boxlogo{
+    width:80%;
+    height:4rem;
+}
+.navigationbody{
+    padding-top:10rem;
+    margin-left:0rem;
+}
+.navigationnav{
+    list-style: none;
+}
+.navigationnav li{
+    padding-bottom:1.5rem;
+    padding-top:1.5rem;
+   color:var(--firstblock-color);
+   font-size:1rem;
+   font-weight:bold;
+   font-family: 'Nunito';
+  
+}
+
+
+.navigationsvgtext{
+    margin-top:1rem;
+}
+.navigationlightmode{
+     margin-top:3.7rem; 
+    
+     float:none !important; 
+}
+.navcapital{
+    display: none;
+}
+.sociallink li{
+    list-style: none;
+    color: white;
+    font-size:0.7rem;
+    margin-left:-2rem;
+    padding-top:0.5rem;
+}
+.uppercontrol{
+    margin-top:2rem;
+    padding-right:1rem;
+}
+.darkmode{
+    width:2rem;
+    height:2rem;
+}
+
+
+
+ /* Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) {  
+    .navigation{
+        width: 100% !important;
+        background-color:var(--navigation-bg);
+        height:100vh;
+        padding:0;
+    }
+    .firstblock{
+        background-color:var(--firstblock-color);
+        width:100%;
+        height:50vh;
+        margin:0;
+        padding-top:5rem;
+       
+    }
+    .secondblock{
+        background-color: #F36F2E;
+        width:100%;
+        height:50vh;
+        margin:0;
+    }
+    .text-reset{
+     
+        margin-top:0.6rem;
+      
+      
+    }
+    .cancelbtnsvg{
+        width:2.2rem;
+        height:2.2rem;
+    }
+    .boxlogo{
+        width:80%;
+        height:4rem;
+    }  
+    .navigationbody{
+        padding-top:10rem;
+        margin-left:0rem;
+    }
+    .navigationnav{
+        list-style: none;
+    }
+    .navigationnav li{
+        padding-bottom:1.5rem;
+        padding-top:1.5rem;
+        color:var(--firstblock-color);
+       font-size:1.3rem;
+       font-weight:bold;
+       font-family: 'Nunito';
+    }
+    .navigationsvgtext{
+        margin-top:10rem;
+    }
+    .navigationlightmode{
+         margin-top:3.7rem; 
+         
+    }
+}
+
+
+/* Small devices (landscape phones, 350px and up) */
+@media (min-width: 350px) {  
+    .navigation{
+        width: 100% !important;
+        background-color:var(--navigation-bg);
+        height:100vh;
+        padding:0;
+    }
+    .firstblock{
+        background-color:var(--firstblock-color);
+        width:100%;
+        height:50vh;
+        margin:0;
+        padding-top:5rem;
+       
+    }
+    .secondblock{
+        background-color: #F36F2E;
+        width:100%;
+        height:50vh;
+        margin:0;
+    }
+    .text-reset{
+     
+        margin-top:0.7rem;
+    
+      
+    }
+    .cancelbtnsvg{
+        width:2.3rem;
+        height:2.3rem;
+    }
+    .boxlogo{
+        width:80%;
+        height:4rem;
+    }  
+    .navigationbody{
+        padding-top:10rem;
+        margin-left:0rem;
+    }
+    .navigationnav{
+        list-style: none;
+    }
+    .navigationnav li{
+        padding-bottom:1.5rem;
+        padding-top:1.5rem;
+        color:var(--firstblock-color);
+       font-size:1.5rem;
+       font-weight:bold;
+       font-family: 'Nunito';
+    }
+    .navigationsvgtext{
+        margin-top:10rem;
+    }
+    .navigationlightmode{
+         margin-top:3.7rem; 
+         
+    }
+}
+  
+
+
+
+/* Small devices (landscape phones, 410px and up) */
+@media (min-width: 410px) {  
+    .navigation{
+        width: 100% !important;
+        background-color:var(--navigation-bg);
+        height:100vh;
+        padding:0;
+    }
+    .firstblock{
+        background-color:var(--firstblock-color);
+        width:100%;
+        height:50vh;
+        margin:0;
+        padding-top:5rem;
+       
+    }
+    .secondblock{
+        background-color: #F36F2E;
+        width:100%;
+        height:50vh;
+        margin:0;
+    }
+    .text-reset{
+       
+        margin-top:0.8rem;
+       
+      
+    }
+    .cancelbtnsvg{
+        width:2.5rem;
+        height:2.5rem;
+    }
+    .boxlogo{
+        width:80%;
+        height:4rem;
+    } 
+    .navigationbody{
+        padding-top:10rem;
+        margin-left:0rem;
+    }
+    .navigationnav{
+        list-style: none;
+    }
+    .navigationnav li{
+        padding-bottom:1.5rem;
+        padding-top:1.5rem;
+       color:var(--firstblock-color);
+       font-size:1.5rem;
+       font-weight:bold;
+       font-family: 'Nunito';
+    }
+    .navigationsvgtext{
+        margin-top:10rem;
+    }
+    .navigationlightmode{
+         margin-top:3.7rem; 
+        
+    } 
+}
+
+
+/* Small devices (landscape phones, 470px and up) */
+@media (min-width: 470px) {  
+    .navigation{
+        width: 100% !important;
+        background-color:var(--navigation-bg);
+        height:100vh;
+        padding:0;
+    }
+    .firstblock{
+        background-color:var(--firstblock-color);
+        width:100%;
+        height:50vh;
+        margin:0;
+        padding-top:5rem;
+       
+    }
+    .secondblock{
+        background-color: #F36F2E;
+        width:100%;
+        height:50vh;
+        margin:0;
+    }
+    .text-reset{
+       
+        margin-top:1rem;
+      
+      
+    }
+    .cancelbtnsvg{
+        width:2.8rem;
+        height:2.8rem;
+    }
+    .boxlogo{
+        width:80%;
+        height:4rem;
+    }  
+    .navigationbody{
+        padding-top:10rem;
+        margin-left:0rem;
+    }
+    .navigationnav{
+        list-style: none;
+    }
+    .navigationnav li{
+        padding-bottom:1.5rem;
+        padding-top:1.5rem;
+        color:var(--firstblock-color);
+       font-size:2.3rem;
+       font-weight:bold;
+       font-family: 'Nunito';
+    }
+    .navigationsvgtext{
+        margin-top:10rem;
+    }
+    .navigationlightmode{
+         margin-top:3.7rem; 
+         margin-left:7rem; 
+    }
+}
+  
+    /* Small devices (landscape phones, 510px and up) */
+    @media (min-width: 510px) {  
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:90%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:90%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+          
+            margin-top:0.9rem;
+           
+          
+        }
+        .cancelbtnsvg{
+            width:3.2rem;
+            height:3.2rem;
+        }
+        .boxlogo{
+            width:80%;
+            height:4rem;
+        } 
+        .navigationbody{
+            padding-top:10rem;
+            margin-left:0rem;
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li{
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:2.4rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+        }
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.7rem; 
+             margin-left:7rem; 
+        } 
+        .sociallink li{
+            list-style: none;
+            color: white;
+            font-size:1.1rem;
+            margin-left:-2rem;
+            padding-top:0.5rem;
+        }
+    }
+    
+
+    /* Small devices (landscape phones, 610px and up) */
+    @media (min-width: 610px) {  
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:80%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:80%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+           
+            margin-top:1rem;
+          
+          
+        }
+        .cancelbtnsvg{
+            width:3.5rem;
+            height:3.5rem;
+        }
+        .boxlogo{
+            width:80%;
+            height:4rem;
+        }  
+        .navigationbody{
+            padding-top:10rem;
+            margin-left:0rem;
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li{
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:2.6rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+        }
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.7rem; 
+             margin-left:7rem; 
+        }
+    }
+    
+    
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) { 
+    
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:100%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:100%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+          
+            margin-top:2rem;
+          
+          
+        }
+        .cancelbtnsvg{
+            width:4rem;
+            height:4rem;
+        }
+        .boxlogo{
+            width:80%;
+            height:4rem;
+        }  
+        .navigationbody{
+            padding-top:10rem;
+            margin-left:0rem;
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li{
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:3.5rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+        }
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.7rem; 
+             margin-left:7rem; 
+        }
+    
+    }
+
+    /* Medium devices (tablets, 810px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 810px) { 
+    
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:80%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:80%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+           
+            margin-top:2rem;
+           
+          
+        }
+        .cancelbtnsvg{
+            width:4rem;
+            height:4rem;
+        }
+        .boxlogo{
+            width:80%;
+            height:4rem;
+        }  
+        .navigationbody{
+            padding-top:10rem;
+            margin-left:0rem;
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li{
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:3.5rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+        }
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.7rem; 
+             margin-left:7rem; 
+        }
+           
+      
+    
+    }
+
+
+    /* Medium devices (tablets, 910px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 910px) { 
+    
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:80%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:80%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+           
+            margin-top:2rem;
+          
+          
+        }
+        .cancelbtnsvg{
+            width:4rem;
+            height:4rem;
+        }
+        .boxlogo{
+            width:80%;
+            height:4rem;
+        }  
+        .navigationbody{
+            padding-top:10rem;
+            margin-left:0rem;
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li{
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:3.5rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+        }
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.7rem; 
+             margin-left:7rem; 
+        }
+           
+      
+    
+    }
+    
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:100%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:100%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+           
+            margin-top:2rem;
+          
+          
+        }
+        .cancelbtnsvg{
+            width:5rem;
+            height:5rem;
+        }
+        .boxlogo{
+            width:80%;
+            height:4rem;
+        }  
+        .navigationbody{
+            padding-top:10rem;
+            margin-left:0rem;
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li{
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:3.5rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+        }
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.7rem; 
+             margin-left:7rem; 
+        }
+        .navcapital{
+            display: block;
+        }
+        .uppercontrol{
+            margin-top:2rem;
+            padding-right:-10rem;
+        }
+        
+  
+    }
+    
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .navigation{
+            width: 100% !important;
+            background-color:var(--navigation-bg);
+            height:100vh;
+            padding:0;
+        }
+        .firstblock{
+            background-color:var(--firstblock-color);
+            width:100%;
+            height:50vh;
+            margin:0;
+            padding-top:5rem;
+           
+        }
+        .secondblock{
+            background-color: #F36F2E;
+            width:100%;
+            height:50vh;
+            margin:0;
+        }
+        .text-reset{
+           
+            margin-top:4rem;
+            /* margin-right:0rem; */
+           
+        } 
+        .cancelbtnsvg{
+            width:6rem;
+            height:6rem;
+        }
+        .boxlogo{
+            width:85%;
+            height:4.5rem;
+        }  
+        .navigationbody{
+            padding-top:10rem;
+           
+        }
+        .navigationnav{
+            list-style: none;
+        }
+        .navigationnav li {
+           padding-bottom:0.5rem;
+           padding-top:0.5rem;
+           color:var(--firstblock-color);
+           font-size:3.5rem;
+           font-weight:bold;
+           font-family: 'Nunito';
+          
+        }
+       
+        .navigationsvgtext{
+            margin-top:10rem;
+        }
+        .navigationlightmode{
+             margin-top:3.5rem; 
+             /* margin-left:0rem;  */
+             float:right;
+        }
+        .uppercontrol{
+            margin-top:2rem;
+            padding-right:5rem;
+        }
+
+       
+     
+    
+    }

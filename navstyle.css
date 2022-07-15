@@ -1,0 +1,163 @@
+:root {
+    --faded-white: #EDEDED;
+    --nav-bg:#373737;
+  
+  }
+
+  .dark-theme {
+    --faded-white: #373737;
+    --nav-bg:#E4E4E4;
+   
+  }
+
+
+
+    .navbody{
+        background-color:var(--nav-bg);
+        height:auto;
+        padding-left:0.5rem;
+        padding-right:0.5rem;
+    }
+    .contactus{
+        background-color: #F36F2E;
+        border: 0;
+        border-radius: 10.8952px 1.53075px;
+        height:2.5rem;
+        width:7.7rem;
+
+    }
+    .contactus:hover{
+        background-color: #F36F2E;
+        border: 0;
+        border-radius: 10.8952px 1.53075px;
+
+    }
+    .navchildrenRight li{
+        padding-left:0.9rem;
+        padding-right:0.9rem;
+    }
+    .navchildrenmobile{
+        display: block;
+       
+        
+    }
+    .navchildrenweb{
+         display:none !important;
+    }
+   
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {  
+     
+    }
+    
+    
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) { 
+    
+        .navbody{
+            background-color:var(--nav-bg);
+            height:5.2rem;
+            padding-left:2rem;
+            padding-right:2rem;
+        }
+        .contactus{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:7.7rem;
+    
+        }
+        .contactus:hover{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+    
+        }
+        .navchildrenRight li{
+            padding-left:0.9rem;
+            padding-right:0.9rem;
+        }
+        .navchildrenmobile{
+            display: block;
+        }
+        .navchildrenweb{
+            display:block !important;
+       }
+      
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .navbody{
+            background-color:var(--nav-bg);
+            height:5.2rem;
+            padding-left:5rem;
+            padding-right:5rem;
+        }
+        .contactus{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:7.7rem;
+    
+        }
+        .contactus:hover{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+    
+        }
+        .navchildrenRight li{
+            padding-left:0.9rem;
+            padding-right:0.9rem;
+        }
+        .navchildrenmobile{
+            display: none !important;
+        }
+        .navchildrenweb{
+            display:block !important;
+       }
+      
+  
+    }
+    
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .navbody{
+            background-color:var(--nav-bg);
+            height:5.2rem;
+            padding-left:8rem;
+            padding-right:8rem;
+        }
+        .contactus{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:7.7rem;
+    
+        }
+        .contactus:hover{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+    
+        }
+        .navchildrenRight li{
+            padding-left:0.9rem;
+            padding-right:0.9rem;
+        }
+        .navchildrenmobile{
+            display: none !important;
+        }
+        .navchildrenweb{
+            display:block !important;
+       }
+     
+    
+    }

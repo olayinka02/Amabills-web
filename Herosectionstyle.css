@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+:root {
+ 
+    --hero-bg: url(./images/HerobgRight.svg), #373737;
+    --left-textcolor: #FCFCFC;
+  }
+
+  .dark-theme {
+   
+    --hero-bg: url(./images/HerobgRightlight.svg), #E4E4E4;
+    --left-textcolor: #373737;
+   
+  }
+
+.HeroSection{
+    background:var(--hero-bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+.HeroSectionRight{
+   
+    width:100%;
+    height:auto;
+    margin-top:2.5rem;
+}
+.HeroSectionLeft{
+  
+    width:100%;
+    height:auto;
+    padding-top:0rem;
+
+}
+.Lefttext{
+    color: var(--left-textcolor);
+    width:100%;
+    font-size:2.1rem;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    line-height: 132.4%;
+    letter-spacing: -0.005em;
+}
+.leftparagraph{
+    color: var(--left-textcolor);
+    font-size:0.78rem;
+    width:100%;
+}
+.Learnmore{
+    background-color: #F36F2E;
+    border: 0;
+    border-radius: 10.8952px 1.53075px;
+    height:2.3rem;
+    width:8.9rem;
+    margin-top:0.5rem;
+
+}
+
+
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {  
+     
+    }
+    
+    
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) { 
+    
+        .HeroSection{
+            background:var(--hero-bg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:100%;
+            height:90vh;
+            padding-left:2rem;
+            padding-right:2rem;
+            padding-top:2rem;
+        }
+        .HeroSectionRight{
+           
+            width:100%;
+            height:90vh;
+        }
+        .HeroSectionLeft{
+          
+            width:100%;
+            height:90vh;
+            padding-top:2rem;
+        
+        }
+        .Lefttext{
+            color: var(--left-textcolor);
+            width:90%;
+            font-size:2.4rem;
+            font-family: 'Nunito';
+            font-weight: bolder;
+            line-height: 142.4%;
+            letter-spacing: -0.005em;
+        }
+        .leftparagraph{
+            color: var(--left-textcolor);
+            font-size:0.87rem;
+            width:90%;
+        }
+        .Learnmore{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:8.7rem;
+            margin-top:0.5rem;
+        
+        }
+        
+      
+      
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .HeroSection{
+            background:var(--hero-bg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:100%;
+            height:90vh;
+            padding-left:4rem;
+            padding-right:4rem;
+            padding-top:2rem;
+        }
+        .HeroSectionRight{
+           
+            width:100%;
+            height:90vh;
+        }
+        .HeroSectionLeft{
+          
+            width:100%;
+            height:90vh;
+            padding-top:4rem;
+        
+        }
+        .Lefttext{
+            color: var(--left-textcolor);
+            width:80%;
+            font-size:2.4rem;
+            font-family: 'Nunito';
+            font-weight: bolder;
+            line-height: 142.4%;
+            letter-spacing: -0.005em;
+        }
+        .leftparagraph{
+            color: var(--left-textcolor);
+            font-size:0.87rem;
+            width:87%;
+        }
+        .Learnmore{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:8.7rem;
+            margin-top:0.5rem;
+        
+        }
+        
+      
+  
+    }
+    
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .HeroSection{
+            background:var(--hero-bg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:100%;
+            height:90vh;
+            padding-left:8rem;
+            padding-right:8rem;
+            padding-top:2rem;
+            padding-bottom:2rem;
+        }
+        .HeroSectionRight{
+           
+            width:100%;
+            height:90vh;
+            margin-top:5rem;
+        }
+        .HeroSectionLeft{
+          
+            width:100%;
+            height:90vh;
+            padding-top:10rem;
+        
+        }
+        .Lefttext{
+            color: var(--left-textcolor);
+            width:80%;
+            font-size:2.4rem;
+            font-family: 'Nunito';
+            font-weight: bolder;
+            line-height: 142.4%;
+            letter-spacing: -0.005em;
+        }
+        .leftparagraph{
+            color: var(--left-textcolor);
+            font-size:0.87rem;
+            width:87%;
+        }
+        .Learnmore{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:8.7rem;
+            margin-top:0.5rem;
+        
+        }
+        
+      
+     
+    
+    }
+
+
+
+     /* Extra large devices (large desktops, 1200px and up) */
+     @media (min-width: 1400px) {
+        .HeroSection{
+            background:var(--hero-bg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:100%;
+            height:90vh;
+            padding-left:8rem;
+            padding-right:8rem;
+            padding-top:2rem;
+            padding-bottom:2rem;
+        }
+        .HeroSectionRight{
+           
+            width:100%;
+            height:90vh;
+            margin-top:1rem;
+        }
+        .HeroSectionLeft{
+          
+            width:100%;
+            height:90vh;
+            padding-top:10rem;
+        
+        }
+        .Lefttext{
+            color: var(--left-textcolor);
+            width:80%;
+            font-size:2.4rem;
+            font-family: 'Nunito';
+            font-weight: bolder;
+            line-height: 142.4%;
+            letter-spacing: -0.005em;
+        }
+        .leftparagraph{
+            color: var(--left-textcolor);
+            font-size:0.87rem;
+            width:87%;
+        }
+        .Learnmore{
+            background-color: #F36F2E;
+            border: 0;
+            border-radius: 10.8952px 1.53075px;
+            height:2.5rem;
+            width:8.7rem;
+            margin-top:0.5rem;
+        
+        }
+        
+      
+     
+    
+    }
