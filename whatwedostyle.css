@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+:root {
+    --faded-white: #EDEDED;
+    --whatwedo-bg:linear-gradient(0deg, rgba(55, 55, 55, 0.4), rgba(55, 55, 55, 0.4)), 
+    linear-gradient(0deg, rgba(55, 55, 55, 0.4), rgba(55, 55, 55, 0.4)), url(./images/whatwedobg.svg);
+  
+  }
+
+  .dark-theme {
+    --faded-white: #373737;
+    --whatwedo-bg:linear-gradient(0deg, rgba(255, 253, 253, 0.55), rgba(255, 253, 253, 0.55)), 
+    linear-gradient(0deg, rgba(255, 253, 253, 0.55), rgba(255, 253, 253, 0.55)), url(./images/whatwedobg.svg);
+   
+  }
+ 
+  .whatwedo{
+   padding-top:8rem;
+   padding-bottom:8rem;
+   background:var(--whatwedo-bg);
+   width:100%;
+   background-size: cover;
+   padding-left:1.2rem;
+   padding-right:1.2rem;
+  }
+  .whatwedotopic{
+    color: var(--faded-white);
+    font-size:1.8rem;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    line-height: 132.4%;
+    letter-spacing: -0.005em;
+
+  }
+  .whatwedoparagraph{
+    color: var(--faded-white);
+    font-size:0.9rem;
+    line-height: 170.9%;
+    font-family: 'Nunito';
+    letter-spacing: -0.005em;
+  }
+  .whatwedonothing{
+    display:none;
+  }
+
+
+  
+   
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {  
+       
+    }
+    
+    
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) { 
+        .whatwedo{
+            padding-top:6rem;
+            padding-bottom:6rem;
+            background:var(--whatwedo-bg);
+            width:100%;
+            background-size: cover;
+            padding-left:2rem;
+            padding-right:2rem;
+           }
+           .whatwedotopic{
+             color: var(--faded-white);
+             font-size:1.8rem;
+             font-family: 'Nunito';
+             font-weight: bolder;
+             line-height: 132.4%;
+             letter-spacing: -0.005em;
+         
+           }
+           .whatwedoparagraph{
+             color: var(--faded-white);
+             font-size:0.9rem;
+             line-height: 170.9%;
+             font-family: 'Nunito';
+             letter-spacing: -0.005em;
+           }
+           .whatwedonothing{
+            display:block;
+          }
+        
+       
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .whatwedo{
+            padding-top:6rem;
+            padding-bottom:6rem;
+            background:var(--whatwedo-bg);
+            width:100%;
+            background-size: cover;
+            padding-left:4rem;
+            padding-right:4rem;
+           }
+           .whatwedotopic{
+             color: var(--faded-white);
+             font-size:1.8rem;
+             font-family: 'Nunito';
+             font-weight: bolder;
+             line-height: 132.4%;
+             letter-spacing: -0.005em;
+         
+           }
+           .whatwedoparagraph{
+             color: var(--faded-white);
+             font-size:0.9rem;
+             line-height: 170.9%;
+             font-family: 'Nunito';
+             letter-spacing: -0.005em;
+           }
+      
+  
+    }
+    
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .whatwedo{
+            padding-top:6rem;
+            padding-bottom:6rem;
+            background:var(--whatwedo-bg);
+            width:100%;
+            background-size: cover;
+            padding-left:8rem;
+            padding-right:8rem;
+           }
+           .whatwedotopic{
+             color: var(--faded-white);
+             font-size:1.8rem;
+             font-family: 'Nunito';
+             font-weight: bolder;
+             line-height: 132.4%;
+             letter-spacing: -0.005em;
+         
+           }
+           .whatwedoparagraph{
+             color: var(--faded-white);
+             font-size:0.9rem;
+             line-height: 170.9%;
+             font-family: 'Nunito';
+             letter-spacing: -0.005em;
+           }
+    
+    }
